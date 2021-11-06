@@ -1,6 +1,8 @@
 
-[![BasuiLogo](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/BasuiLogo.png)](#) <br>
-blazor component library for sending messages to bus
+<br><br>
+[![BasuiLogo](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/BasuiLogo.png)](#)
+
+<br>
 
 [![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingLeft.png)](#) Get Started
 ----
@@ -12,22 +14,21 @@ builder.Services.AddBlazorMessageBus()
     .AddInterfaceTypedCQRSProvider(typeof(IQuery<>), typeof(ICommand), typeof(ICommand<>), typeof(CreateCustomerCommand).Assembly)                
     .AddDomainNameFormatter<TypedDDDDomainNameFormatter>();
 ```
+<br><br>
 [![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingLeft.png)](#) Extensibility
 ----
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Mauris elementum mau
+<br><br>
 
 [![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingLeft.png)](#) Features
 ----
 - [x] UI for sending messages to bus
 - [x] Very high extensibility
+<br><br>
 
 [![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingLeft.png)](#) 3rd party support
 ----
 - [x] MassTransit client
 - [x] Basyc integration
 - [ ] AzureServiceBus client
-
-
-
-<mark>what is DataBase</mark>
-    
+<br><br>
