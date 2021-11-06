@@ -1,4 +1,4 @@
-
+# ⚠️🚧 WORK IN PROGRESS 🚧⚠️
 <br><br>
 [![BasuiLogo](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/BasuiLogo.png)](#)
 
@@ -6,8 +6,8 @@
 
 [![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingPoint.png)](#) Get Started
 ----
-1. Install <code>Basyc.Basui</code> nuget package
-2. Create a empty blazor wasm app <code>Program.cs</code>:
+
+Create a empty blazor wasm app <code>Program.cs</code>:
 ```c#
 builder.Services.AddBlazorMessageBus()
     .AddBusClient<BasycInterfaceTypedBusClient>()
