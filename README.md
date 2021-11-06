@@ -4,7 +4,7 @@
 
 <br>
 
-[![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingLeft.png)](#) Get Started
+[![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingPoint.png)](#) Get Started
 ----
 1. Install <code>Basyc.Basui</code> nuget package
 2. Create a empty blazor wasm app <code>Program.cs</code>:
@@ -14,18 +14,18 @@ builder.Services.AddBlazorMessageBus()
     .AddInterfaceTypedProvider(typeof(IRequest), typeof(IRequest<>), typeof(CreateCustomerCommand).Assembly);
 ```
 <br><br>
-[![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingLeft.png)](#) Extensibility
+[![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingPoint.png)](#) Extensibility
 ----
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Mauris elementum mau
 <br><br>
 
-[![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingLeft.png)](#) Features
+[![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingPoint.png)](#) Features
 ----
 - [x] UI for sending messages to bus
 - [x] Very high extensibility
 <br><br>
 
-[![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingLeft.png)](#) 3rd party support
+[![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingPoint.png)](#) 3rd party support
 ----
 - [x] MassTransit client
 - [x] Basyc integration
