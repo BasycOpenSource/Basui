@@ -11,7 +11,7 @@
 ```c#
 builder.Services.AddBlazorMessageBus()
     .AddBusClient<BasycInterfaceTypedBusClient>()
-    .AddInterfaceTypedCQRSProvider(typeof(IQuery<>), typeof(ICommand), typeof(ICommand<>), typeof(CreateCustomerCommand).Assembly)                
+    .AddInterfaceTypedProvider(typeof(IRequest), typeof(IRequest<>), typeof(CreateCustomerCommand).Assembly)
     .AddDomainNameFormatter<TypedDDDDomainNameFormatter>();
 ```
 <br><br>
