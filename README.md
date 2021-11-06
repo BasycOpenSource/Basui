@@ -11,8 +11,7 @@
 ```c#
 builder.Services.AddBlazorMessageBus()
     .AddBusClient<BasycInterfaceTypedBusClient>()
-    .AddInterfaceTypedProvider(typeof(IRequest), typeof(IRequest<>), typeof(CreateCustomerCommand).Assembly)
-    .AddDomainNameFormatter<TypedDDDDomainNameFormatter>();
+    .AddInterfaceTypedProvider(typeof(IRequest), typeof(IRequest<>), typeof(CreateCustomerCommand).Assembly);
 ```
 <br><br>
 [![](https://github.com/BasycOpenSource/Basui/blob/main/README-Files/HeadingLeft.png)](#) Extensibility
